@@ -7,7 +7,7 @@ class MainTest {
 
     @Test
     void SortingNums() {
-        Main obj=new Main();
+        Program obj=new Program();
         int[] Array={6,5,4,3,2,1};
         int[] expectedArray = {1,2,3,4,5,6};
         int[] actualArray  = obj.SortArray(Array);
