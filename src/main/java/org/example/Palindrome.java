@@ -7,6 +7,7 @@ public class Palindrome {
         System.out.println(obj.isPalindrome("abc"));
     }
     //abccba
+
     public  boolean isPalindrome(String s)
     {
 
