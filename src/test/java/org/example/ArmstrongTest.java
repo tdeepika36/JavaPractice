@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class ArmstrongTest{
     Armstrong obj=new Armstrong();
 
-
     @Test
     void isArmstrongOrNot(){
         assertEquals(true,obj.isArmstrong(153));

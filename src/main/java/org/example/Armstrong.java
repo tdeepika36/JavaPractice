@@ -6,6 +6,7 @@ public class Armstrong{
         System.out.println(sc.isArmstrong(8208));
 
     }
+
     public boolean isArmstrong(int n){
         int length=0;
         int p=n;
