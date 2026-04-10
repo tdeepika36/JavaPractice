@@ -1,6 +1,9 @@
 package org.example;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class ArmstrongTest{
@@ -24,6 +27,12 @@ class ArmstrongTest{
     void isNotArmstrong(){
 
         assertEquals(false,obj.isArmstrong(1234));
+    }
+    @ParameterizedTest
+    @ValueSource(ints={153,371,9474})
+    void arm(int num)
+    {
+        assertTrue(obj.isArmstrong(num));
     }
 
 }

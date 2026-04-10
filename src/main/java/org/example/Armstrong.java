@@ -2,6 +2,7 @@ package org.example;
 //8208,371,153
 public class Armstrong{
     public static void main(String args[]){
+
         Armstrong sc=new Armstrong();
         System.out.println(sc.isArmstrong(8208));
 
