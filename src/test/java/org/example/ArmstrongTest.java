@@ -4,10 +4,15 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.util.logging.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class ArmstrongTest{
-    Armstrong obj=new Armstrong();
+    Armstrong obj = new Armstrong();
+
+
+
 
     @Test
     void isArmstrongOrNot(){
